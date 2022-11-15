@@ -1,0 +1,17 @@
+@charset "UTF-8";
+body{
+    background-image:linear-gradient(to right, #ffffff 5%, #f26157b6);
+    font-family: Arial, helvetica, sans-serif;
+    font-size: 16px;
+}
+h1{ font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+    text-align: center;
+    text-shadow:1px 1px 3px #f26157b6;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+p{width: 750px;
+
+}

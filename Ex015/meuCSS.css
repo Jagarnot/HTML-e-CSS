@@ -1,0 +1,25 @@
+@charset "UTF-8";
+body{
+    background-image: linear-gradient(to top, #000000 1%, #FFE3DC 32%, #694873, #8B728E, #087E8B);
+    background-attachment: fixed;
+}
+main{
+    background-color: #FFE3DC;
+    box-shadow: 05px 05px 10px #000000a9;
+    width:650px;
+    border-radius: 10px;
+    margin: auto;
+}
+h1{
+    color: #087E8B;
+    text-align: center;
+    text-shadow: 2px 2px 5px #0000007e;
+}
+*{/*Voltar dps na aula 15 do segundo módulo para ver este asterisco, na aula onde criamos uma página com desin em degradê*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 105%;
+}
+p{
+    text-align: justify;
+}
+

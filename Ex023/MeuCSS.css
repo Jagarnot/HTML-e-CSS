@@ -1,0 +1,80 @@
+@charset "UTF-8";
+body{
+    background-color: #8F95D3;
+}
+div{/* Comando para alterar especificamente o que está dentro de div*/
+    font-size: 30px;
+    margin: 5px;
+    padding: 0px;
+    border-radius: 6px;
+    box-shadow: -2px 2px 6px 2px rgb(123, 16, 185);/*Utilizar o inset para lançar a sombra dentro da caixa*/
+}
+div > a{/*comando para alterar o que está dentro de link, através do comando filho*/
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+div > p{/*comando para alterar o paragrafo, escondendo qualquer subconteudo neste caso o sub conteudo está dentro de <p></p> que está dentro de <div></div> */
+    display: none;
+}
+
+div:hover > p{
+    display: block;
+    color: #ebeaf0;/*comando para possibilitar a interação através do "block, criando uma interação com o texto através do hover "*/
+    text-align: center;
+    
+}
+
+h1{
+    background-color:#f03a46cc  ;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px coral;
+    border-radius: 6px;
+}
+header{
+    background-color: #F03A47;
+    padding: 7px 7px 7px 7px;
+    margin: 7px;
+    border-radius: 12px;
+}
+
+nav > p{ 
+    color:#000000 ;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+nav > a:hover{
+    text-decoration: underline;
+}
+main{
+    background-color: #af5b5bb4;
+    padding: 7px;
+    border-radius: 12px;
+}
+aside{
+    background-color: rgba(255, 127, 80, 0.568);
+    box-shadow: 2px 2px 2px 2px #F03A47 ;
+}
+footer > p{
+    background-color: #191716;
+    text-align: center;
+    color: white;
+}
+#urgentes{
+    background-color:#AF5B5B ;
+}
+.plantão{
+    background-color: rgba(0, 0, 0, 0.527);
+    color: white;
+}
+#bola{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: none;
+}
+#div > p{
+    display: none;
+}

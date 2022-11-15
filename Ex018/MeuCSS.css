@@ -1,0 +1,28 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Bloody';
+    src: url(Fontes/Bloody\ Frozen.otf) format('opentype'), url('Bloody\ Frozen.ttf');
+}
+body{
+    background-color: rgb(94, 12, 119);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: normal 20px;
+}
+h1{
+    color: rgba(226, 223, 11, 0.925);
+    font-family: 'Bloody', 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-align: center;
+}
+h2{
+    color: brown;
+    font-family: 'Bloody';
+    font-size: 2em;
+    text-align: center;
+}
+p{
+    font: normal 20px Arial, Verdana, serif;
+    color: rgb(249, 249, 250);
+    text-align: justify;
+    text-indent:30px;
+}

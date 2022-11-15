@@ -1,0 +1,53 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+body{
+    background-color: rgb(113, 241, 241);
+    font-family: 'Kaushan Script', cursive;
+    font-size: 28px;
+
+
+}
+a{
+    text-decoration: none;
+    color: rgb(252, 248, 5);
+    /*font-weight: bold;*/
+    }
+/*a:visited{
+    color: rgb(170, 160, 13);}*/
+
+a:hover{
+    text-decoration: underline;
+    color: rgb(247, 0, 0);
+
+}
+a:active{
+    color: rgb(15, 10, 255);
+}
+h1{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 36px;
+}
+/*Importante: Pseudo classes 1 vez : e Pseudo elementos 2 vez ::
+#= id
+. = pseudo-class
+:: = pseudo-element
+> = filho*/
+
+a::before{
+    content: '☛';
+    font-weight:'' ;
+    color: black;
+    
+
+}
+a::after{
+    content: ' ☜';
+    font-weight: normal;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+}
+.especial{
+    color: rgb(1, 245, 54);
+    background-color: rgb(109, 109, 230);
+}

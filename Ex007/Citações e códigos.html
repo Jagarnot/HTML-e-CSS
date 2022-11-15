@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="laptop-microsoft.ico" type="image/x-icon">
+    <title>Outras formatações</title>
+</head>
+<style>
+    body{
+        background-color: rgb(238, 127, 36);
+    }
+    h1{
+        color: aliceblue;
+    }
+    mark{background-color: aqua;}
+</style>
+<body>
+    <p><a href="file:///C:/Users/Jagarnot/Documents/HTML%20&%20CSS/Ex008/Listas%20de%20OL%20e%20UL.html" target="_self" rel="next">Página 2</a></p>
+    <h1>Citações e códigos</h1>
+    <h2>Código-fonte &#x1F4BB</h2>
+    <p>O comando <code>document.getElementeByld('teste')</code>é escrito em linguagem JavaScript</p>
+    <p><code>O código <mark>&lt;code&gt;</mark> não possui identação, então tudo que for digitado em linhas diferentes vai ser unido na mesma linha ex: teste
+        teste
+        teste <!-- Conferir na page do código como fica-->
+        teste</code></p>
+    <p><code>Por isso devemos colocar o envelopamento <mark>&lt;pre&gt;</mark> para que o código fique na página como está sendo representado no Visual Studio ex:</code></p>
+        <pre>
+            teste
+            teste
+            teste
+            teste
+        </pre>
+        <p><code>Então após concluido o envelopamento, agora precisamos organizar o código, para fazer isso basta puxar o mesmo para trás já que dentro do <mark>&lt;pre&gt;</mark> ele não afetará os outros componentes do código utilizando <mark>Shift + Tab</mark></code></p>
+        <p><pre>
+    teste
+    teste
+    teste
+    teste
+        </pre>
+        </p>
+        <p><img src="Sem título.png" alt="Print do código"></p>
+        <h2>Citações</h2>
+        <p>Como diria o pai de um amigo: <q>O computador é um burro muito rapido!!</q></p> <!--Citação simples-->
+        <h2>Citações completas</h2>
+        <p>Segundo Jeff Noble, no seu livro, HTML para leigos:</p>
+        <p>
+            <blockquote cite="https://books.google.com.br/books/about/HTML_XHTML_e_CSS_Para_Leigos.html?id=E8ZtDwAAQBAJ&redir_esc=y">A diferença entre elementos online e um bloco de texto é importante.Os elementos HTML neste capitulo descrevem os blocos de texto</blockquote>
+        </p>
+        <h2>Abreviações</h2>
+        <p>Estou estudando <mark><abbr title="HyperText Markup Language">HTML</abbr></mark> e <mark><abbr title="Cascading Style Sheets">CSS</abbr></mark>. É muito maneiro</p>
+        <h2>Texto invertido</h2>
+        <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML</bdo></p><!--Coisa inutil, mas ta ae vai que né...-->
+    
+</body>
+</html>
