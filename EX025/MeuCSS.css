@@ -1,0 +1,20 @@
+@charset "UTF-8";
+body{
+    background-image: url(midia/fundo.jpg);/*Comando para inserir uma imagem de background na página*/
+}
+div.quadrado{/*Comando para inserir um item para o class="quadrado"*/
+    display:inline-block;/*Comando para deixar os itens mencionados como "div.quadrado" na mesma linha, assim não vão ficar um encima do outro em linhas diferentes*/
+    width: 300px;/*Comando para inserir uma largura especifica*/
+    height: 300px;/*comando para inseir uma altura especifica*/
+    border-radius: 12px;/*Comando para inserir uma alteração na borda das caixas inseridas */
+    border: 2px solid black;/*Comando para inserir uma valor espeficico na grossura das bordas, o tipo de borda e a cor da borda*/
+    background-color: burlywood;/*Comando para inserir um design de fundo*/
+}
+div#a1{/*Comando para inserir uma alteração de estilo especificamente no id="a1"*/
+    background-color: aliceblue;
+}/*Comando para inserir um estilo de fundo*/
+div#a2{
+    background-image: linear-gradient(to top ,yellow, rgb(255, 102, 0));
+}/*Comando para inserir uma coloração de fundo gradiente*/
+div#a3{background-image: url(midia/pattern002.png);/*Comando para inserir uma imagem dentro da página sem uma identidade semantica apenas como estilo*/
+}
