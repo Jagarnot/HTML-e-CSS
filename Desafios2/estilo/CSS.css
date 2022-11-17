@@ -18,7 +18,9 @@
     padding: 0px;
 }
 body{
-    background-color: #fc8728a9;
+    background-image: url(fonts/fundo.png);
+    margin: auto;
+    background-color: var(--cor0);
     margin: 0px 0px 0px 0px;
 }
 a.externo::after{/*Código para inserir uma classe global em todas as TAGS deste tipo class='externo', "::after" é para inserir após o conteudo no final*/

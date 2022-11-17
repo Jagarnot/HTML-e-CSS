@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body{
-    background-image: url(midia/fundo.jpg);/*Comando para inserir uma imagem de background na página*/
+    background-image: url(midia/fundo.png);/*Comando para inserir uma imagem de background na página*/
 }
 div.quadrado{/*Comando para inserir um item para o class="quadrado"*/
     display:inline-block;/*Comando para deixar os itens mencionados como "div.quadrado" na mesma linha, assim não vão ficar um encima do outro em linhas diferentes*/
