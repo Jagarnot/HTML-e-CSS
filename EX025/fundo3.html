@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alterando a imagem de fundo</title>
+    <style>
+        body{
+            background-image: url(https://free4kwallpapers.com/uploads/originals/2020/04/28/fantasy-forest-wallpaper.jpg);
+            background-size: 2000px 950px;
+            background-repeat: no-repeat;
+        }
+        div{
+            background-image: url(https://wallpaperaccess.com/full/3423238.jpg);
+            background-size: 1000px 300px;/*Comando para alterar a resolução da imagem a largura em seguida a altura*/
+            height: 100px;/*Comando para alterar a altura o item*/
+            border: 1px solid black;/*Comando para inserir borda com 1 px de espessura do tipo solida na cor preta*/
+            margin: 10px;/*comando para colocar margem na div, assim deixando um espaço entre os mesmos*/
+            border-radius:  12px;/*comando para alterar o raio da borda deixando ela mais arredondada*/
+        }
+        div#a1{
+            background-position: top right;
+        }
+        div#a2{
+            background-position: center right;
+        }
+        div#a3{
+            background-position: bottom right;
+        }
+    </style>
+</head>
+<body>
+    <div class="bloco" id="a1">
+
+    </div>
+    <div class="bloco" id="a2">
+
+    </div>
+    <div class="bloco" id="a3">
+
+    </div>
+    
+</body>
+</html>
