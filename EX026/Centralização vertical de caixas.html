@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centrealização de caixas</title>
+    <style>
+        body{
+            background-color: rgb(131, 131, 131);/*Código para alterar a cor do fundo*/
+            background-image: url(midia/target001.png);/*Código para inserir uma imagem no fundo*/
+            background-size: cover;/*Código para alterar o tamanho do fundo*/
+            background-repeat: no-repeat;/*Código para não repetir a imagem do fundo*/
+            background-attachment: fixed;/*Código para fixar a imagem assim não acontecendo o rolamento de página no background*/
+            background-position: center top;/*Código para alterar a posição da imagem de fundo e manter a mesma sempre no meio*/
+        }
+        #container{
+            background-image: url(midia/target001.png);
+            background-size: 100% 100%;
+            background-position: center center;
+            
+            position: relative;/*É uma regra o item de fora é relativo*/
+            height: 300px;
+            width: 600px;
+            background-color: rgb(255, 153, 0);
+            padding: 10px;/*Vai aumentar a altura e largura da imagem ajustando diretamente do padding*/
+            margin: auto;
+
+            
+            
+
+            
+        }
+        #Absolute{
+            background-image: url(midia/target001.png);
+            background-size: 100% 100%;
+            
+            position: absolute;/*É uma regra o item de dentro é absoluto*/
+            height: 150px;/*alterar a altura do item*/
+            width: 300px;/*Alterar a largura do item*/
+            background-color: brown;
+
+            top: 26%;/**/
+            left: 26%;
+
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article id="Absolute">
+
+        </article>
+    </section>
+    
+</body>
+</html>
