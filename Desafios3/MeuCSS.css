@@ -2,11 +2,15 @@
 body{
     background-color: rgb(221, 219, 219);
     background-image: url(midia/imagens/background001.jpg);
-    background-position: center right;
+    background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    font-size: large;
-
+    font-size: 28px;
+}
+body main{
+    background-image: url(midia/imagens/background002.jpg);
+    padding: 5px 5px 5px 5px;
+    margin: 8px -8px 0px -8px;;
 }
 h1{
     text-align: center;
@@ -14,6 +18,8 @@ h1{
     color: white;
     margin: -8px;
     padding: 23px;
+    font-size: 3em;
+    text-shadow: -3px -3px 4px rgb(255 255 255);;
 }
 nav p{
     text-align: center;
@@ -29,13 +35,18 @@ nav a{
 article{
     background-color: rgb(243, 243, 243);
     margin: -8px;
-    padding: 7px;
+    padding: 25px;
+    box-shadow: 2px 0px 12px 1px;
 }
+
+
 section{
-    background-color: rgba(0, 0, 0, 0.349);
+    background-color: rgba(0, 0, 0, 0.582);
     color: white;
-    margin: -8px;
-    padding: 0px;}
+    margin: 40px;
+    padding: 110px;
+    text-align: right;
+    }
     
 footer{
     background-color: black;
@@ -44,4 +55,5 @@ footer{
     text-decoration: solid;
     margin: -8px;
     padding: 2px;
+    font-size: 14px;
 }
