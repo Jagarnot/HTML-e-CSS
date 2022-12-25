@@ -10,10 +10,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-*{
-    margin: auto;
-    padding: auto;
-}
+
 section p{
     font-family: 'Rubik Gemstones', cursive;
     font-size: 32px;
@@ -31,7 +28,7 @@ main p{
 body main{
     background-image: url(midia/imagens/background002.jpg);
     padding: 5px 5px 5px 5px;
-    margin: 8px -8px 0px -8px;;
+    margin: 8px -8px 0px -8px;
 }
 h1{
     text-align: center;
